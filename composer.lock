@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2329a24ebbddae0d989f382a39978c33",
+    "content-hash": "6d41e5b040868af8a4b90f9097e10297",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -467,6 +467,39 @@
             ],
             "description": "Highlight PHP code in terminal",
             "time": "2018-09-29T18:48:56+00:00"
+        },
+        {
+            "name": "kadekjayak/bca-parser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kadekjayak/bca-parser.git",
+                "reference": "b905abcc0f18680945e6f474992fb9ef2e343008"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kadekjayak/bca-parser/zipball/b905abcc0f18680945e6f474992fb9ef2e343008",
+                "reference": "b905abcc0f18680945e6f474992fb9ef2e343008",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BCAParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kadekjayak",
+                    "email": "kadekjayak@yahoo.co.id"
+                }
+            ],
+            "description": "Scrapper for KlikBCA",
+            "time": "2019-02-20T17:44:17+00:00"
         },
         {
             "name": "laravel/framework",
@@ -4937,7 +4970,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "kadekjayak/bca-parser": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
